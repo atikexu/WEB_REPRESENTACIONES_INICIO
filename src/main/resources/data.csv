@@ -1,0 +1,42 @@
+idProducto,idCategoria,idSubCategoria,nombre,descripcion,estado,precio,precioAntes,nombreImagen,presentaciones,oferta,marca
+1,1,0,JAMON SERRANO COCIDO,Deliciosa pierna de cerdo ahumada. Ideal para cualquier tipo de reunión. Producto cocido y empacado.,1,10.12,9.51,/embutidos/ahumados/product-1.png,PESO APROX 6.9KG,NO,/cerdena.png
+2,1,0,TOCINO AHUMADO,Exquisito tocino ahumado para pasar un buen momento. Producto cocido y empacado.,1,10.13,9.52,/embutidos/ahumados/product-2.png,PESO APROX: 3.20KG,SI,/cerdena.png
+3,1,0,MONDIOLA BACON,Sabor y aroma único con el toque fino de humo. Producto cocido y empacado.,1,10.13,9.52,/embutidos/ahumados/product-3.png,PESO APROX: 1.2KG,SI,/cerdena.png
+4,1,0,LOMO AHUMADO,Con un toque de ahumado ideal para eventos o reuniones. Producto cocido y empacado.,1,10.12,9.51,/embutidos/ahumados/product-4.png,PESO APROX: 2.9KG,NO,/cerdena.png
+5,1,0,ASADO DE CERDO,De las más exquisitas extraído de la pierna de cerdo. Producto cocido y empacado.,1,10.13,9.52,/embutidos/ahumados/product-5.png,PESO APROX: 1.8KG,SI,/cerdena.png
+6,1,0,JAMON AHUMADO,Elaborado del musculo de cerdo obteniendo el clásico sabor ahumado. Producto cocido y empacado.,1,10.13,9.52,/embutidos/ahumados/product-6.png,PESO APROX : 4.60 KG,SI,/cerdena.png
+7,1,0,PAIS DE LA CASA,De los más exquisitos elaborado de la pierna de cerdo.,1,10.12,9.51,/embutidos/ahumados/product-7.png,PESO APROX: 3.10KG,NO,/cerdena.png
+8,1,0,CABANOSSI,Producto ahumado y seco generando un sabor único con el toque picante de ajíes peruanos.,1,10.13,9.52,/embutidos/ahumados/product-8.png,PESO APROX: 1 KG,SI,/cerdena.png
+9,2,0,SALCHICHA TERNERA,,1,10.13,9.52,/embutidos/empacados/product-1.png,X 26 UND,SI,/cerdena.png
+10,2,0,SALCHICHA VIANESA,,1,10.12,9.51,/embutidos/empacados/product-2.png,X 1KG,NO,/cerdena.png
+11,2,0,SALCHICHA DE POLLO,,1,10.13,9.52,/embutidos/empacados/product-3.png,X 26 UND,SI,/cerdena.png
+12,2,0,SALCHICHA DE POLLO NAPOLITANA,,1,10.13,9.52,/embutidos/empacados/product-4.png,-,SI,/cerdena.png
+13,2,0,SALCHICHA DE POLLO DON PEPITO,,1,10.15,9.54,/embutidos/empacados/product-5.png,-,NO,/cerdena.png
+14,2,0,SALCHICHA DE POLLO,,1,10.16,9.55,/embutidos/empacados/product-6.png,GRANEL,NO,/cerdena.png
+15,2,0,SALCHICHA ROJO,,1,10.17,9.56,/embutidos/empacados/product-7.png,GRANEL,NO,/cerdena.png
+16,2,0,SALCHICHA VIANESA,,1,10.18,9.57,/embutidos/empacados/product-8.png,X 10 UND,NO,/cerdena.png
+17,2,0,SALCHICHA FRANKFURTER,,1,10.19,9.58,/embutidos/empacados/product-9.png,X 1KG,NO,/cerdena.png
+18,2,0,CABANOSSI,,1,10.19,9.58,/embutidos/empacados/product-10.png,X UND,NO,/cerdena.png
+19,2,0,SALCHICHA PELADA,,1,10.19,9.58,/embutidos/empacados/product-11.png,-,NO,/cerdena.png
+20,2,0,JAMONADA ESPECIAL,,1,10.19,9.58,/embutidos/empacados/product-12.png,X 2KG,NO,/cerdena.png
+21,2,0,SALAMIN CERDEÑA,,1,10.19,9.58,/embutidos/empacados/product-13.png,-,NO,/cerdena.png
+22,2,0,DON PEPITO LA AMARILLA,,1,10.19,9.58,/embutidos/empacados/product-14.png,X 2KG,NO,/cerdena.png
+23,2,0,MORTADELA,,1,10.19,9.58,/embutidos/empacados/product-15.png,X 2KG,NO,/cerdena.png
+24,2,0,CHORIZO PARRILLERO,,1,10.19,9.58,/embutidos/empacados/product-16.png, X 10 UND,NO,/cerdena.png
+25,2,0,JAMONADA,,1,10.19,9.58,/embutidos/empacados/product-17.png,X 100 GR,NO,/cerdena.png
+26,2,0,HOT DOG ESPECIAL,,1,10.19,9.58,/embutidos/empacados/product-18.png,-,NO,/cerdena.png
+27,2,0,CHORIZO PARRILLERO,,1,10.19,9.58,/embutidos/empacados/product-19.png,X 5 UND,NO,/cerdena.png
+28,2,0,CHICHARRON DE PRENSA,,1,10.19,9.58,/embutidos/empacados/product-20.png,X 100 UND,NO,/cerdena.png
+29,2,0,HOT DOG,,1,10.19,9.58,/embutidos/empacados/product-21.png,X 3 UND,NO,/cerdena.png
+30,2,0,CHORIZO PARRILLERO,,1,10.19,9.58,/embutidos/empacados/product-22.png,X UND,NO,/cerdena.png
+31,2,0,HOT DOG,,1,10.19,9.58,/embutidos/empacados/product-23.png,X 6 UND,NO,/cerdena.png
+32,2,0,CHORIZO PARRILLERO PEPITO,,1,10.19,9.58,/embutidos/empacados/product-24.png,-,NO,/cerdena.png
+33,3,0,CHICHARRON DE PRENSA CERDEÑA,,1,10.19,9.58,/embutidos/jamones/product-1.png,PESO APROX: 3.10KG,NO,/cerdena.png
+34,3,0,CHICHARRON DE PRENSA NAPOLITANA,,1,10.19,9.58,/embutidos/jamones/product-2.png,PESO APROX: 3.10KG,NO,/cerdena.png
+35,3,0,JAMON INGLES CERDEÑA,,1,10.19,9.58,/embutidos/jamones/product-3.png,PESO APROX: 3.10KG,NO,/cerdena.png
+36,3,0,JAMON DEL PAIS CERDEÑA,,1,10.19,9.58,/embutidos/jamones/product-4.png,PESO APROX: 2.8KG,NO,/cerdena.png
+37,3,0,JAMON PIZZA NAPOLITANA,,1,10.19,9.58,/embutidos/jamones/product-5.png,PESO APROX: 3.10KG,NO,/cerdena.png
+38,3,0,JAMON INGLES PEPITO,,1,10.19,9.58,/embutidos/jamones/product-6.png,PESO APROX: 3.10KG,NO,/cerdena.png
+39,4,0,PAPA ONDULADA 12MM,,1,10.19,9.58,/embutidos/papas/product-1.png,PESO: 2.5KG,NO,/farmfrite.jpg
+40,4,0,PAPA RECTA 10 MM,,1,10.19,9.58,/embutidos/papas/product-2.png,PESO: 2.5KG,NO,/farmfrite.jpg
+41,4,0,ARITOS DE CEBOLLA,,1,10.19,9.58,/embutidos/papas/product-3.png,PESO: 450GR,NO,/farmfrite.jpg

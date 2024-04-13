@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ER REPRESENTACIONES DEL SUR</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="./assets/img/logo_ERfin.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="./assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>Lima Ate</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>marketing@representacionesdelsur.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Síguenos:</small>
+                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-youtube"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a th:href="@{/}" class="navbar-brand ms-4 ms-lg-0">
+                <img class="hidden-xs img-responsive" src="./assets/img/logo_ERfin.png">
+<!--                 <h2 class="fw-bold text-primary m-0"><span class="stroke">REPRESENTACIONES</span></h2> -->
+<!-- 				<h2 class="fw-bold text-primary m-0"><span class="stroke">DEL SUR</span></h2> -->
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <h5><a th:href="@{/}" class="nav-item nav-link">Inicio</a></h5>
+                    <h5><a th:href="@{/nosotros}" class="nav-item nav-link">Nosotros</a></h5>
+                    <h5><a th:href="@{/productos}" class="nav-item nav-link">Productos</a></h5>
+                    <h5><a th:href="@{/contactenos}" class="nav-item nav-link active">Contáctenos</a></h5>
+					<h5><a th:href="@{/cobertura}" class="nav-item nav-link">Cobertura</a></h5>
+					<p>&nbsp;</p>
+					<a href="https://wa.me/51922731008?text=ER Representaciones del Sur,%20me%20gustar%C3%ADa%20contactarme%20con%20ustedes.%20Muchas%20gracias."><img class="responsive-image" src="./assets/img/W03.png" alt="Whatsapp"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">Contáctenos</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="#">Inicio</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="#">Contáctenos</a></li>
+<!--                     <li class="breadcrumb-item text-dark active" aria-current="page">Contáctenos</li> -->
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Contáctenos</h1>
+                <p>Para cualquier consulta o información escríbenos o llámenos y así brindarle una mejor atención y servicio.</p>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5">
+                        <h5 class="text-white">Celular</h5>
+                        <p class="mb-5"><i class="fa fa-phone-alt me-3"></i>922 731 008</p>
+                        <h5 class="text-white">Correo</h5>
+                        <p class="mb-5"><i class="fa fa-envelope me-3"></i>marketing@representacionesdelsur.com</p>
+                        <h5 class="text-white">Dirección</h5>
+                        <p class="mb-5"><i class="fa fa-map-marker-alt me-3"></i>Calle los Lagos Mz R lt 5 – Ate</p>
+                        <h5 class="text-white">Síguenos</h5>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">Ingrese todos los campos.</p>
+                    <form th:action="@{/emailContacto}" th:object="${contacto}" method="POST" class="needs-validation" onsubmit="validarFormulario(event)">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" th:field="*{nombre}" required>
+                                    <label for="nombre">Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="celular" name="celular" placeholder="Celular" th:field="*{celular}" required>
+                                    <label for="celular">Celular</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo" th:field="*{correo}" required>
+                                    <label for="correo">Correo</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="motivo" name="motivo" placeholder="Asunto" th:field="*{motivo}" required>
+                                    <label for="motivo">Asunto</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Mensaje" name="mensaje" id="mensaje" style="height: 200px" th:field="*{mensaje}" required></textarea>
+                                    <label for="mensaje">Mensaje</label>
+                                </div>
+                            </div>
+							
+							
+							<div class="col-12 g-recaptcha" data-sitekey="6LdXEYAmAAAAADScxj3-QFzM8Dd72ItZlVxnOuvq" data-theme="light" data-size="normal"></div>
+							
+							<div class="col-12">
+                                <span id="message_span" style="color:red"></span>
+                            </div>
+                            
+                            <div class="col-12">
+                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Google Map Start -->
+    <div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
+        <iframe class="w-100" style="height: 450px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5598.669712061205!2d-76.92452814548619!3d-12.03663468150959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6a983d61fcf%3A0x2efbb663e00836b4!2sCalle%20Berl%C3%ADn%20%26%20Prolongacion%20Javier%20Prado%2C%20Ate%2015494!5e0!3m2!1ses-419!2spe!4v1685680223676!5m2!1ses-419!2spe"
+            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!-- Google Map End -->
+
+
+   <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="fw-bold text-primary mb-4"><span class="stroke">REPRESENTACIONES</span>
+					<span class="stroke">DEL SUR</span>
+					</h3>
+                    <p>Ofrecemos a nuestros clientes los mejores productos. Desde hace más de 30 años, nos hemos dedicado a proporcionar productos frescos y de la más alta calidad.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Dirección</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Lima, Ate</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>922 731 008</p>
+                    <p style="font-size: 13px;"><i class="fa fa-envelope me-3"></i>marketing@representacionesdelsur.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Enlaces</h4>
+                    <a class="btn btn-link" th:href="@{/}">Inicio</a>
+                    <a class="btn btn-link" th:href="@{/nosotros}">Nosotros</a>
+                    <a class="btn btn-link" th:href="@{/productos}">Productos</a>
+                    <a class="btn btn-link" th:href="@{/contactenos}">Contáctenos</a>
+					<a class="btn btn-link" th:href="@{/cobertura}">Cobertura</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">ER Representaciones del Sur</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="#">Archy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+	<script>
+    function validarFormulario(event) {
+    	var nombre = $('#nombre').val();
+    	var correo = $('#correo').val();
+    	var celular = $('#celular').val();
+    	var motivo = $('#motivo').val();
+    	var mensaje = $('#mensaje').val();
+    	
+        var span = document.getElementById("message_span");
+        var captcha = grecaptcha.getResponse();
+        var igualdad = captcha.localeCompare('');
+        
+        var el_span = document.getElementById("message_span");
+        if (igualdad == 0) {
+          event.preventDefault();
+          el_span.innerText = 'Completar el reCAPTCHA';
+        }else{
+        	el_span.innerText = '';
+        }
+        if(igualdad==1 && isValidEmail(correo) && celular!='' && motivo!='' && mensaje!=''){
+        	console.log("ENTRO A ABRIR MODAL");
+    		openModal();
+    	}
+      }
+    
+    
+        function mostrarModal(){
+        	var nombre = $('#nombre').val();
+        	var correo = $('#correo').val();
+        	var celular = $('#celular').val();
+        	var motivo = $('#motivo').val();
+        	var mensaje = $('#mensaje').val();
+        	
+        	var captcha = grecaptcha.getResponse();
+        	var secret = "6LdXEYAmAAAAAOIhACjxsZz6lQkpRL-nTGA9SLsj";
+        	var igualdad = captcha.localeCompare('');
+ 
+        	var el_span = document.getElementById("message_span");
+
+        	if(igualdad == 0){
+        		el_span.innerText = 'Completar el reCAPTCHA';
+        	}else{
+        		el_span.innerText = '';
+        	}
+        	if(igualdad==1 && isValidEmail(correo) && celular!='' && motivo!='' && mensaje!=''){
+        		console.log("ENTRO A ABRIR MODAL");
+        		openModal();
+        	}
+        		
+        }
+        
+        function isValidEmail(correo)
+        {
+            return /^[a-z0-9]+([-._][a-z0-9]+)*@([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,4}$/.test(correo)
+                && /^(?=.{1,64}@.{4,64}$)(?=.{6,100}$).*/.test(correo);
+        }
+    </script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/lib/wow/wow.min.js"></script>
+    <script src="./assets/lib/easing/easing.min.js"></script>
+    <script src="./assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="./assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="./assets/js/main.js"></script>
+    
+<!--     <div id="correo_modal" class="modal"> -->
+
+<!-- 		  Modal content -->
+<!-- 		  <div  class="modal-content"> -->
+<!-- 		    <div class="modal-header" style="text-align: left;"> -->
+<!-- 		<!--       <span class="close">&times;</span> --> -->
+<!-- 		      <h2 style="color: #e40158">Gracias por contactarnos.</h2> -->
+<!-- 		    </div> -->
+<!-- 		    <div class="modal-body"> -->
+<!-- 		      <p>Su correo está siendo enviado</p> -->
+<!-- 		      <p>Gracias por su preferencia</p> -->
+<!-- 		    </div> -->
+<!-- 		    <div class="modal-footer"> -->
+<!-- 		      <h3 style="color: #1d70b7">Alimentos Selectos</h3> -->
+<!-- 		    </div> -->
+<!-- 		  </div> -->
+<!--   </div> -->
+  
+  
+  
+  	<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+			<div class="modal-header">
+				
+				<i class="fa fa-envelope me-3"></i><h5 style="color: white; padding-top: 5px;">Gracias por contactarnos</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+            <div class="modal-body">
+				<div class="row g-2">
+					<div class="col-xl-5 d-flex justify-content-center">
+						<img class="img-fluid w-35" width="200" src="./assets/img/logo_ER_GRANDE.png" alt="ER Representaciondes del Sur">
+					</div>
+					<div class="col-xl-7 d-flex flex-column align-items-center">
+						<div class="text-start">
+							<h5 style="color: black">Gracias por confiar en nosotros</h5>
+							<h5 style="color: black">Su mensaje ha sido enviado correctamente.</h5>
+						</div>
+					</div>
+				</div>
+            </div>
+			<div class="modal-footer">
+			    <h5 style="color: white">ER REPRESENTACIONES DEL SUR</h3>
+		    </div>
+        </div>
+    </div>
+</div>
+  <script>
+    function openModal() {
+//         var modalImage = document.getElementById('modalImage');
+//         modalImage.src = imageUrl;
+        $('#imageModal').modal('show');
+    }
+</script>
+  
+  
+  
+</body>
+
+</html>
